@@ -50,12 +50,13 @@ export default function initSr() {
     ".about-wrapper__image",
     assignProps(
       {
-        delay: 600,
+        delay: 400,
         origin: "bottom",
       },
       defaultProps
     )
   );
+  
 
   ScrollReveal().reveal(
     ".about-wrapper__info",

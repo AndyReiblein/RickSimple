@@ -1,0 +1,22 @@
+.wrapper {
+    overflow: hidden;
+  }
+  
+  .sliding-background {
+    background: path("assets/project.jpg") repeat-x;
+    // height: 460px;
+    // width: 5076px;
+    animation: slide 10s linear infinite;
+    #slider-stopper  { position: absolute; top: 1px; right: 20px; background: #ac0000; color: white;
+      padding: 3px 8px; font-size: 10px; text-transform: uppercase; z-index: 1000; }
+  }
+  
+  @keyframes slide{
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(-1692px, 0, 0);
+    }
+  }
+  
